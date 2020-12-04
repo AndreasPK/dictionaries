@@ -88,7 +88,9 @@ For just time:
 |Data.HashTable.IO.LinearHashTable|3.064 μs|40.86 μs|471.9 μs|8.734 ms|
 |Data.HashTable.IO.CuckooHashTable|3.598 μs|48.18 μs|1206 μs|14.65 ms|
 
-## Lookup Int (Randomized)
+## Lookup Int (Randomized) 
+
+Looks up all keys in the dictionary.
 
 |Name|10|100|1000|10000|100000|1000000|
 |---|---|---|---|---|---|---|
@@ -100,6 +102,8 @@ For just time:
 |Data.IntMap.Strict|138.6 ns|1.835 μs|70.28 μs|1192 μs|25.18 ms|629.8 ms|
 
 ## IO Lookup Int (Randomized)
+
+Looks up a single key in the dictionary.
 
 |Name|10|100|1000|10000|100000|1000000|
 |---|---|---|---|---|---|---|
